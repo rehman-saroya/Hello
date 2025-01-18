@@ -1,0 +1,10 @@
+# What is x and y 
+x = int(input("Whats's x? "))
+y = int(input("What's y? "))
+# if either x is less than, more than, or equal to y
+if x < y:
+    print("x is less than y")
+if x > y:
+    print("x is more than y")
+if x == y:
+    print("x is equal to y")
