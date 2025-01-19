@@ -1,0 +1,8 @@
+name = input("What's your menu food option? ")
+
+
+match name:
+    case "Burger" | "Fries" | "Sub":
+        print("Great Choice. ")
+    case _:
+        print("Invalid Responce")
